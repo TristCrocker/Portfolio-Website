@@ -48,11 +48,7 @@ body {
     
 }
 
-footer{
 
-    scroll-snap-align: end;
-
-}
 
 
 
@@ -329,9 +325,11 @@ footer{
     color: white;
     background-color: black;
     font-family: 'Source Code Pro', monospace;
-    
-    
+}
 
+footer{
+    scroll-snap-align: end;
+    height: 5vh;
 }
 
 
