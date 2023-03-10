@@ -16,7 +16,9 @@ body {
     
 
 }
-
+.navbar a{
+    font-size: 3vmin;
+}
 .navbar img{
 
     justify-content: right;
