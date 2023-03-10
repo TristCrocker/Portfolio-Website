@@ -17,6 +17,7 @@ html {
 
 .experienceContainer a {
     text-decoration: none;
+    text-decoration: underline;
     color:#ff0000;
     margin-top: 2vh;
     margin-bottom: 2vh;
