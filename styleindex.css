@@ -329,7 +329,8 @@ body {
 
 footer{
     scroll-snap-align: end;
-    height: 5vh;
+    /* height: 5vh; */
+    font-size: 5vh;
 }
 
 
