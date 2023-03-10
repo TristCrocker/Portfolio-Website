@@ -102,8 +102,12 @@ footer{
 .dropdown-menu {
     background-color: #ff0000;
     color: red;
-    height: 10vh;
+    height: 20vh;
     width: auto;
+}
+
+.dropdown-menu a {
+    font-size: 10vh;
 }
 
 .dropdown{
