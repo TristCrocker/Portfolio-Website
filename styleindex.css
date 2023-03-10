@@ -2,6 +2,7 @@
 
     padding: 0;
     margin: 0;
+    font-family: 'Lato Light', sans-serif;
     
 
 }
@@ -12,6 +13,24 @@ html {
   scroll-snap-type: y mandatory;  
 
 }
+
+
+.experienceContainer a {
+    text-decoration: none;
+    color:#ff0000;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.linkContainer a{
+    justify-content: center;
+
+}
+
+.linksContainer h3{
+    color:#ff0000;
+}
+
 
 body {
     height: 100vh;
@@ -228,12 +247,15 @@ footer{
 
 }
 
+.experienceContainer{
+    justify-content: center;
+    align-items: center;
+}
+
 #experience h1{
 
-    font-size: 5vmin;
-    
-
-    
+    /* font-size: 10vh; */
+    margin-bottom: 10vh;
 
 }
 
@@ -266,11 +288,34 @@ footer{
     
 }
 
+.studiesContainer h1{
+    margin-bottom: 5vh;
+}
+
+#experience p {
+    font-size: 3vmin;
+}
+
 #work h1{
 
     font-size: 5vmin;
  
 
+}
+
+#work p{
+
+    font-size: 3vmin;
+    
+
+
+
+
+}
+
+.studiesContainer h3 {
+    align-content: justify;
+    text-align: justify;
 }
 
 #footer{

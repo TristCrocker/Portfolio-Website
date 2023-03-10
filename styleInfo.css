@@ -1,0 +1,105 @@
+* {
+    font-family: 'Lato Light', sans-serif;
+    background-color: black;
+}
+
+body {
+    
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar{
+
+    font-size: 15px;
+    font-family: 'Source Code Pro', monospace;
+    
+
+}
+
+.navbar img{
+
+    justify-content: right;
+
+}
+
+#navbar-nav {
+
+    float: right;
+
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: red;
+    transform: translateY(1px);
+}
+
+
+
+
+
+.navbar-toggler{
+
+    color:white;
+    justify-content: end;
+
+
+}
+
+
+.dropdown-menu {
+    background-color: #ff0000;
+    color: red;
+}
+
+.dropdown{
+    background-color: transparent !important;
+}
+
+.jumbotron{
+
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    height: 100%;
+    width: 100%;
+    padding-top: 15vh;
+    
+}
+.container p {
+    text-align: justify;
+    color: white;
+    font-size: 3vmin;
+}
+
+footer{
+
+    scroll-snap-align: end;
+
+}
+
+#footer{
+
+    color: white;
+    background-color: black;
+    font-family: 'Source Code Pro', monospace;
+    
+    
+
+}
+
+ul{
+
+    text-align: right;
+
+
+}
+li {
+    margin: 20px;
+    display: inline;
+}
+
